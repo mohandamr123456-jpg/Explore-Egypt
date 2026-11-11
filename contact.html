@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Explore Egypt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p>Book Your Next Adventure in Egypt</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="about.html">About</a>
+        <a href="tours.html">Tours</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Contact Information</h2>
+
+            <p>Have questions? Contact us and we will help you.</p>
+
+            <p><strong>Email:</strong> info@exploreegypt.com</p>
+            <p><strong>Phone:</strong> +20 1220323274</p>
+        </section>
+
+        <section>
+            <h2>Book Your Tour</h2>
+
+            <form>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone" name="phone">
+
+                <br><br>
+
+                <label for="date">Travel Date:</label>
+                <input type="date" id="date" name="date">
+
+                <br><br>
+
+                <p>Choose Your Tour:</p>
+
+                <input type="radio" id="historical" name="tour" value="Historical">
+                <label for="historical">Historical Tour</label>
+
+                <input type="radio" id="beach" name="tour" value="Beach">
+                <label for="beach">Beach Tour</label>
+
+                <br><br>
+
+                <input type="checkbox" id="guide" name="guide">
+                <label for="guide">I need a tour guide</label>
+
+                <br><br>
+
+                <label for="people">Number of People:</label>
+                <select id="people" name="people">
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                </select>
+
+                <br><br>
+
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Book Now">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Explore Egypt. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
